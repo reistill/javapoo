@@ -4,7 +4,7 @@ abstract class Animal {
     private double peso;
     private int idade;
 
-//criação dos métodos da classe animal
+    //criação dos métodos da classe animal
     public void fazerbarulho() {
         System.out.println("barulho animal");
     }
