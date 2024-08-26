@@ -1,4 +1,4 @@
-public class Felino extends Animal {
+public abstract class Felino extends Animal {
 
     @Override
     public void vaguear() {

@@ -21,4 +21,6 @@ abstract class Animal {
         System.out.println("animal movimentando-se");
     }
 
+    //faltam os gets e setts
+
 }
