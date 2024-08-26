@@ -10,7 +10,7 @@ abstract class Animal {
     }
 
     public void comer() {
-        System.out.println("animal alimentando-se")
+        System.out.println("animal alimentando-se");
     }
 
     public void dormir() {
