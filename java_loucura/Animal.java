@@ -21,6 +21,28 @@ abstract class Animal {
         System.out.println("animal movimentando-se");
     }
 
-    //faltam os gets e setts
+    //gets e sets
+    public double gettamanho() {
+        return tamanho;
+    }
 
+    public void settamanho(double tamanho) {
+        this.tamanho = tamanho;
+    }
+    
+    public double getpeso() {
+        return peso;
+    }
+
+    public void setpeso(double peso) {
+        this.peso = peso;
+    }
+
+    public int idade() {
+        return idade;
+    }
+
+    public void setidade(int idade) {
+        this.idade = idade;
+    }
 }
