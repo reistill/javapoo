@@ -4,4 +4,9 @@ public class Leao extends Felino{
     public void fazerbarulho() {
         System.out.println("Leão miawnr");
     }
+
+    @Override
+    public void comer() {
+        System.out.println("Leão alimentando-se");
+    }
 }
